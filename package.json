@@ -1,0 +1,22 @@
+{
+  "name": "sqlitenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app/index.js",
+    "debug": "nodemon --inspect=0.0.0.0:9229 app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^1.0.0",
+    "concat-stream": "^2.0.0",
+    "knex": "^0.95.15",
+    "nodemon": "^2.0.15",
+    "sequelize": "^7.0.0-alpha.2",
+    "sqlite3": "^5.0.2"
+  }
+}
